@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site3.master.cs" Inherits="FinalProject.Site3" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <style>
+    
+   
+   
+    #demo{
+        margin-top: 30px;
+        padding: 20px;
+        border: 8px rgba(8, 69, 20, 0.50);
+        border-radius: 30px;
+        background-color: rgba(255, 255, 255, 0.3);
+        box-shadow: 0 0 20px rgba(19, 19, 60, 0.35);
+        justify-content:center;
+
+    }
+   
+    
+</style>
+
+<title></title>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+<link href="Content/bootstrap.rtl.min.css" rel="stylesheet" />
+<asp:ContentPlaceHolder ID="head" runat="server">
+</asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+             <script src="Scripts/bootstrap.min.js"></script>
+        </div>
+    </form>
+</body>
+</html>
